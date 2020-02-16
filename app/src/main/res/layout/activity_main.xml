@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+
+    <EditText
+        android:id="@+id/et_panjang"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="panjang"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:id="@+id/et_lebar"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="lebar"
+        android:textAlignment="center"
+
+        />
+    <EditText
+        android:id="@+id/et_tinggi"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tinggi"
+        android:textAlignment="center"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+        <Button
+            android:id="@+id/btn_hasil"
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="keliling Segitiga"
+            android:backgroundTint="#D9BCE4"/>
+
+    </LinearLayout>
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Hasil"
+    android:gravity="center_horizontal"
+    android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tv_hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0.0"
+        android:gravity="center_horizontal"
+        android:textSize="50sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Count"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tv_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <Button
+            android:id="@+id/btn_count"
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Count"
+            android:backgroundTint="#D9BCE4"/>
+        <Button
+            android:id="@+id/btn_reset"
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:backgroundTint="#D9BCE4"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <Button
+            android:id="@+id/btn_pindah"
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pindah Activity"
+            android:backgroundTint="#EBA0B4"/>
+        <Button
+            android:id="@+id/btn_pindahWData"
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pindah dengan data"
+            android:backgroundTint="#87CF89"/>
+        <Button
+            android:id="@+id/btn_dialNum"
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dial number"
+            android:backgroundTint="#BCC6E4"/>
+    </LinearLayout>
+
+
+</LinearLayout>
